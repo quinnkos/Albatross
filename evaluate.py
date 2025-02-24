@@ -35,7 +35,9 @@ def evaluate(dataloader, predictors):
 
             true_coords.extend(true_coord_batch.cpu().numpy())
     
-    # Denormalize true coordinate values before comparing to denormalized predicted values
+    # Denormalize predicted and true coordinate values
+    for predictor in predictors:
+        predictor.pred_coords = denormalize_coordinates(predictor.pred_coords)
     true_coords = denormalize_coordinates(true_coords)
 
     # Call plotting and printing member functions
