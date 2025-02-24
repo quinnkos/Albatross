@@ -1,0 +1,2 @@
+# Albatross
+A GeoGuessr AI
