@@ -20,9 +20,9 @@ I loved learning geography growing up and as a consequence, I have spent more ho
 
 ## Results
 
-Below is a snapshot of the model's current results visualized on a 32-sample test batch:
+Below is a snapshot of the model's current results visualized on a 32-sample test batch. Note that Europe and the U.S. are densely saturated with street view coverage, so the image location distribution **is** reflective of the distribution of locations in the standard GeoGuessr world map:
 
-![32-sample test batch](images/test_batch_k5_visualized.jpg)
+![32-sample test batch](images/test_batch_k5_visualized.png)
 
 ## Reflection
 
