@@ -20,9 +20,11 @@ I loved learning geography growing up and as a consequence, I have spent more ho
 
 ## Results
 
-Below is a snapshot of the model's current results visualized on a 32-sample test batch. Note that Europe and the U.S. are densely saturated with street view coverage, so the image location distribution **is** reflective of the distribution of locations in the standard GeoGuessr world map:
+Below is a snapshot of the model's current results visualized on a 32-sample test batch. Note that Europe and the U.S. are densely saturated with street view coverage, so the image location distribution **is** reflective of the distribution of locations in the standard GeoGuessr world map.
 
 ![32-sample test batch](images/test_batch_k5_visualized.png)
+
+The mean GeoGuessr score shown above (15782) is 50% better than the average human score of 10558—and the model achieved this without even traversing the map (humans are allowed to move around the map endlessly to gain clues and pinpoint location, whereas the model is basing its prediction off of a still panorama). Humans are also allowed to zoom in on clues, whereas the model is restricted by low image resolutions.
 
 ## Reflection
 
