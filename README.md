@@ -39,4 +39,4 @@ This project uses the **Street View Panoramas** dataset, which is licensed under
 
 ## License
 
-This project is licensed under [Apache 2.0] – see the LICENSE file for details.
+This project is licensed under Apache 2.0.
